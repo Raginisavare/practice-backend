@@ -1,0 +1,41 @@
+http://localhost:3005/users
+
+###
+
+
+http://localhost:3005/users/1
+
+###
+
+
+http://localhost:3005/users/rag@gmail.com
+
+###
+
+
+POST http://localhost:3005/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"mint56",
+    "number":"9",
+    "email":"rag@gmail.com",
+    "pass":"tesr34"
+}
+
+###
+PUT http://localhost:3005/users/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name":"rag76",
+    "number":"7",
+    "email":"sav@gmail.com",
+    "pass":"savare1"
+}
+
+###
+DELETE http://localhost:3005/users/2 HTTP/1.1
+Content-Type: application/json
+
+
